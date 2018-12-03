@@ -1,0 +1,11 @@
+from tkinter import *
+master=Tk()
+Lb = Listbox(master,selectmode=SINGLE)
+Lb.pack()
+Lb.insert(1, "Python")
+Lb.insert(2, "Perl")
+Lb.insert(3, "C")
+Lb.insert(4, "PHP")
+Lb.insert(5, "JSP")
+Lb.insert(6, "Ruby")
+master.mainloop()
